@@ -1,0 +1,77 @@
+a.nav-links {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.img-style {
+    width: 27%;
+}
+
+.item-box {
+    display: flex;
+    width: 25%;
+    height: 263px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: table-cell;
+    padding: 6px;
+    max-height: 300px;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 6px;
+    color: white;
+    background-color: rgb(220, 0, 78);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    background-color: #e91e63bf;
+}
+
+.MuiListItemAvatar-alignItemsFlexStart, .MuiAvatar-root {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.check-btn {
+    background-color: rgb(220, 0, 78);
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    min-width: 150px;
+    border-radius: 8px;
+}
+
+.check-btn:hover {
+    background-color: #e91e63bf;
+}
+
+.filters {
+    margin-bottom: 5px;
+    min-width: 150px;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.container {
+    padding: 15px 2px;
+}
